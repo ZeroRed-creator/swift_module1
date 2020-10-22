@@ -1,0 +1,7 @@
+import Foundation
+var myArray = [1]
+for i in 2...100{
+    myArray.append(i)
+}
+var toDelete = myArray.filter{$0 % 2 != 0 && $0 % 3 == 0}
+print(toDelete)
