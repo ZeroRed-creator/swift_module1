@@ -1,0 +1,6 @@
+import Foundation
+var myArray = [1]
+for i in 2...100{
+    myArray.append(i)
+}
+print(myArray)
