@@ -1,0 +1,9 @@
+import Foundation
+func devideThree(x: Int){
+    if x%3 == 0{
+        print("\(x): devideble by 3")
+    }else{
+        print("\(x): not devideble by 3")
+    }
+}
+devideThree(x: 99)
